@@ -1,0 +1,12 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/style.css",
+    "inputFile": "frontend/scss/style.scss",
+    "options": { "autoPrefix": "last 2 versions",
+      "sourceMap": true }
+  },
+  {
+    "outputFile": "wwwroot/js/script.js",
+    "inputFile": "frontend/js/script.js"
+  }
+]
