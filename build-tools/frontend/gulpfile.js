@@ -41,7 +41,7 @@ function styles(done) {
         .pipe(sass().on("error", sass.logError))
         .pipe(postcss(plugins))
         .pipe(rename({ dirname: "./" }))
-        .pipe(sourcemaps.write("../wwwroot/css"))
+        .pipe(sourcemaps.write("./"))
         .pipe(gulp.dest("../wwwroot/css"));
 
     done();
@@ -64,7 +64,7 @@ function scripts() {
         .pipe(buffer())
         .pipe(sourcemaps.init({ loadMaps: true }))
         .pipe(terser())
-        .pipe(sourcemaps.write("../wwwroot/js"))
+        .pipe(sourcemaps.write("./"))
         .pipe(gulp.dest("../wwwroot/js"));
 }
 
