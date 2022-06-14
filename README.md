@@ -6,7 +6,7 @@ This project shows how to compile `scss` and `JS` into the `wwwroot` folder of a
 Install `node/npm` on your computer (VS will look for your installed version).
 - https://nodejs.org/en/download/
 - or use a package manager like [chocolaty](https://chocolatey.org/install)
-- Requires `node v15+`. This is set in the `engines` section of `package.json` file
+- Requires `node v14+`. This is set in the `engines` section of `package.json` file
 
 ## Setup
 - cd to `/build-tools/frontend`

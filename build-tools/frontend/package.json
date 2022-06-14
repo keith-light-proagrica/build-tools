@@ -2,7 +2,7 @@
   "name": "build-tools",
   "version": "1.0.0",
   "engines": {
-    "node": ">=15.0.0"
+    "node": ">=14.0.0"
   },
   "description": "",
   "scripts": {
